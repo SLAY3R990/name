@@ -48,6 +48,12 @@ Tab:AddButton({
         print("Script Executed Successfully!")
    end
 })
+Tab:AddButton({
+	Name = "Chat Bypass",
+	Callback = function()loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-NEW-RBCByp-The-BEST-Chat-Bypasser-8299"))()
+      		print("Script Executed Successfully!")
+  	end    
+})
 local Tab = Window:MakeTab({
 	Name = "Games",
 	Icon = "rbxassetid://4483345998",
