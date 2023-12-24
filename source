@@ -24,7 +24,8 @@ OrionLib:MakeNotification({
 	Content = "Enable the mobile keyboard, if on mobile, to reopen the GUI by tapping right-shift.",
 	Image = "rbxassetid://5166690430",
 	Time = 20
-})Tab:AddButton({
+})
+Tab:AddButton({
 	Name = "Infinite Yield",
 	Callback = function()loadstring(game:HttpGet("https://scriptblox.com/raw/Infinite-Yield_500"))()
       		print("Script Executed Successfully!")
@@ -47,19 +48,51 @@ Tab:AddButton({
         print("Script Executed Successfully!")
    end
 })
-Tab:AddButton({
-	Name = "Chat Bypass (enable keyboard first)",
-	Callback = function()loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-NEW-RBCByp-The-BEST-Chat-Bypasser-8299"))()
-      		print("Script Executed Successfully!")
-  	end    
-})
 local Tab = Window:MakeTab({
 	Name = "Games",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
+local Section = Tab:AddSection({
+	Name = "Blade Ball"
+})
+Tab:AddButton({
+	Name = "WiiHub",
+	Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/vFishyTurtle/wiihub/main/loader"))()
+      		print("Script Executed Successfully!")
+  	end    
+})
+Tab:AddButton({
+	Name = "Meow Hub",
+	Callback = function()loadstring(game:HttpGet("https://scriptblox.com/raw/UPD-Blade-Ball-Meow-source-hub-9502"))()
+      		print("Script Executed Successfully!")
+  	end    
+})
+local Section = Tab:AddSection({
+	Name = "Slap Battles"
+})
+Tab:AddButton({
+	Name = "Dizzy Hub",
+	Callback = function()loadstring(game:HttpGet("https://scriptblox.com/raw/raise-a-floppa-Flopp-GUI-(Dizzy-Hub)-3293"))()
+      		print("Script Executed Successfully!")
+  	end    
+})
+Tab:AddButton({
+	Name = "Hub That Exists",
+	Callback = function()loadstring(game:HttpGet(("https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Slap%20Battles")))()
+      		print("Script Executed Successfully!")
+  	end    
+})
+local Section = Tab:AddSection({
+	Name = "JailBreak"
+})
+Tab:AddButton({
+	Name = "Red Hub",
+	Callback = function()loadstring(Game:HttpGet("https://raw.githubusercontent.com/RedWirePlatinumTwo/RobloxScripts/main/JailbreakGUI.lua"))()
+      		print("Script Executed Successfully!")
+  	end    
+})
 end
-
 OrionLib:MakeNotification({
 	Name = "Logged In!",
 	Content = "You need to type in the key now!"..Player.Name..".",
