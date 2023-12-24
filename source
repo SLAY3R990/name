@@ -92,6 +92,41 @@ Tab:AddButton({
       		print("Script Executed Successfully!")
   	end    
 })
+local Section = Tab:AddSection({
+	Name = "Blox Fruits"
+})
+Tab:AddButton({
+	Name = "Rasputin Hub",
+	Callback = function()loadstring(game:HttpGet("https://rasputin-bf.glitch.me/bloxfruits.lua"))()
+
+      		print("Script Executed Successfully!")
+  	end    
+})
+local Section = Tab:AddSection({
+	Name = "Pet Simulator X"
+})
+Tab:AddButton({
+	Name = "Rafa Hub",
+	Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Rafacasari/roblox-scripts/main/psx.lua"))()
+
+      		print("Script Executed Successfully!")
+  	end    
+})
+Tab:AddButton({
+	Name = "Milk Up Hub",
+	Callback = function()loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/fc715fb43902af268c335a5c7269be5e.lua"))()
+      		print("Script Executed Successfully!")
+  	end    
+})
+local Section = Tab:AddSection({
+	Name = "Pet Simulator 99"
+})
+Tab:AddButton({
+	Name = "Zekrom Hub",
+	Callback = function()loadstring(Game:HttpGet"https://raw.githubusercontent.com/ahmadsgamer2/Zekrom-Hub-X/main/Zekrom-Hub-X-exe")()
+      		print("Script Executed Successfully!")
+  	end    
+})
 end
 OrionLib:MakeNotification({
 	Name = "Logged In!",
