@@ -64,7 +64,7 @@ local Section = Tab:AddSection({
 })
 Tab:AddButton({
 	Name = "WiiHub",
-	Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/vFishyTurtle/wiihub/main/loader"))()
+	Callback = function()script_key="luOHBubWRGooTjMzKJtAhwpfRrERfTNL"; loadstring(game:HttpGet("https://raw.githubusercontent.com/vFishyTurtle/wiihub/main/loader"))()
       		print("Script Executed Successfully!")
   	end    
 })
