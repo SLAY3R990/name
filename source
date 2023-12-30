@@ -133,10 +133,19 @@ Tab:AddButton({
       		print("Script Executed Successfully!")
   	end    
 })
+local Section = Tab:AddSection({
+	Name = "The Strongest Battlegrounds"
+})
+Tab:AddButton({
+	Name = "Nex Hub",
+	Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/CopyReal/NexHub/main/NexHubLoader", true))()
+      		print("Script Executed Successfully!")
+  	end    
+})
 end
 OrionLib:MakeNotification({
 	Name = "Logged In!",
-	Content = "You need to type in the key now!"..Player.Name..".",
+	Content = "You need to type in the key now, "..Player.Name..".",
 	Image = "rbxassetid://4483345998",
 	Time = 15
 }) 
