@@ -54,6 +54,33 @@ Tab:AddButton({
       		print("Script Executed Successfully!")
   	end    
 })
+local Section = Tab:AddSection({
+	Name = "Player"
+})
+Tab:AddSlider({
+	Name = "WalkSpeed",
+	Min = 0,
+	Max = 200,
+	Default = 15,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "WS",
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+	end    
+})
+Tab:AddSlider({
+	Name = "Slider",
+	Min = 0,
+	Max = 200,
+	Default = 10,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "JP",
+	Callback = function(Value)
+		game.Players.LocalPlayers.Character.Humanoid.JumpPower = Value
+	end    
+})
 local Tab = Window:MakeTab({
 	Name = "Games",
 	Icon = "rbxassetid://4483345998",
