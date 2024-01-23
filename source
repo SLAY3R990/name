@@ -73,19 +73,19 @@ Tab:AddSlider({
 	Increment = 1,
 	ValueName = "WS",
 	Callback = function(Value)
-		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+		game.Players.LocalPlayers.Character.Humanoid.WalkSpeed = Value
 	end    
 })
 Tab:AddSlider({
-	Name = "Slider",
-	Min = 0,
+	Name = "JumpPower",
+	Min = 5,
 	Max = 200,
 	Default = 10,
 	Color = Color3.fromRGB(255,255,255),
 	Increment = 1,
 	ValueName = "JP",
 	Callback = function(Value)
-		game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
+		game.Players.LocalPlayers.Character.Humanoid.JumpPower = Value
 	end    
 })
 local Tab = Window:MakeTab({
