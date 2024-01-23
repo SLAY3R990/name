@@ -54,6 +54,13 @@ Tab:AddButton({
       		print("Script Executed Successfully!")
   	end    
 })
+Tab:AddButton({
+	Name = "Lyric GUI",
+	Callback = function()loadstring(game:HttpGet(("https://raw.githubusercontent.com/AedusXD/Auto-Sing/main/Yessirrrrrrrrrrrrrrrr")))()
+      		print("Script Executed Successfully!")
+  	end    
+})
+
 local Section = Tab:AddSection({
 	Name = "Player"
 })
@@ -135,6 +142,14 @@ Tab:AddButton({
       		print("Script Executed Successfully!")
   	end    
 })
+
+Tab:AddButton({
+	Name = "FaiFao Hub",
+	Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/PNguyen0199/Script/main/Fai-Fao.lua",true))()
+      		print("Script Executed Successfully!")
+  	end    
+})
+
 local Section = Tab:AddSection({
 	Name = "Pet Simulator X"
 })
@@ -145,24 +160,29 @@ Tab:AddButton({
       		print("Script Executed Successfully!")
   	end    
 })
+
 Tab:AddButton({
 	Name = "Milk Up Hub",
 	Callback = function()loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/fc715fb43902af268c335a5c7269be5e.lua"))()
       		print("Script Executed Successfully!")
   	end    
 })
+
 local Section = Tab:AddSection({
 	Name = "Pet Simulator 99"
 })
+
 Tab:AddButton({
 	Name = "Zekrom Hub",
 	Callback = function()loadstring(Game:HttpGet"https://raw.githubusercontent.com/ahmadsgamer2/Zekrom-Hub-X/main/Zekrom-Hub-X-exe")()
       		print("Script Executed Successfully!")
   	end    
 })
+
 local Section = Tab:AddSection({
 	Name = "The Strongest Battlegrounds"
 })
+
 Tab:AddButton({
 	Name = "Nex Hub",
 	Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/CopyReal/NexHub/main/NexHubLoader", true))()
