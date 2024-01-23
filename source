@@ -58,35 +58,7 @@ Tab:AddButton({
 	Name = "Lyric GUI",
 	Callback = function()loadstring(game:HttpGet(("https://raw.githubusercontent.com/AedusXD/Auto-Sing/main/Yessirrrrrrrrrrrrrrrr")))()
       		print("Script Executed Successfully!")
-  	end    
-})
-
-local Section = Tab:AddSection({
-	Name = "Player"
-})
-Tab:AddSlider({
-	Name = "WalkSpeed",
-	Min = 0,
-	Max = 200,
-	Default = 15,
-	Color = Color3.fromRGB(255,255,255),
-	Increment = 1,
-	ValueName = "WS",
-	Callback = function(Value)
-		game.Players.LocalPlayers.Character.Humanoid.WalkSpeed = Value
-	end    
-})
-Tab:AddSlider({
-	Name = "JumpPower",
-	Min = 5,
-	Max = 200,
-	Default = 10,
-	Color = Color3.fromRGB(255,255,255),
-	Increment = 1,
-	ValueName = "JP",
-	Callback = function(Value)
-		game.Players.LocalPlayers.Character.Humanoid.JumpPower = Value
-	end    
+  	end      
 })
 local Tab = Window:MakeTab({
 	Name = "Games",
