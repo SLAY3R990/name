@@ -85,7 +85,7 @@ Tab:AddSlider({
 	Increment = 1,
 	ValueName = "JP",
 	Callback = function(Value)
-		game.Players.LocalPlayers.Character.Humanoid.JumpPower = Value
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
 	end    
 })
 local Tab = Window:MakeTab({
